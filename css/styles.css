@@ -1,0 +1,186 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat''sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat''sans-serif';
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+#title {
+  background-color: #597FDB;
+
+  color: #FFF;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat'
+
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* font awesome icons */
+
+.rFeatures{
+  text-align: center;
+}
+
+.fIcon {
+  color: #597FDB;
+  size: 100px;
+  margin-bottom: 1rem;
+
+}
+
+
+.fIcon:hover{
+  color: #597FDB;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #597FDB;
+  color: #FFF;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #597FDB;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: %3 %2;
+}
+
+@media (max-width: 1028px){
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+#cta {
+  background-color: #597FDB;
+  padding: 7% 15%;
+  color: #FFF;
+  text-align: center;
+
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  font-weight: bold;
+  background-color: #FFF;
+}
+
+.social-media {
+  padding-left: 2%;
+}
+
+.media-icons{
+  padding: 1.7% 1%;
+}
